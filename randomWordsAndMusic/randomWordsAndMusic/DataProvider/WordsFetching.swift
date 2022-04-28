@@ -46,7 +46,7 @@ class WordsFetcher: WordsFetching {
             }
         }
     }
-
+    
     func refetchWords(_ count: Int, oldWords: [WordsResult] = [], completion: @escaping (Result<[WordsResult], Error>) -> Void) {
         fetchWords(count) { result in
             switch result {

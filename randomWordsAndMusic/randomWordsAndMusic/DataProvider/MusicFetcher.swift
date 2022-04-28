@@ -41,7 +41,7 @@ class MusicFetcher: MusicFetching {
                 group.leave()
             }
         }
-
+        
         group.notify(queue: .main) {
             completion?(.success(fetchedData))
         }

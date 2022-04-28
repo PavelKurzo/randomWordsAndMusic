@@ -8,7 +8,7 @@
 import Foundation
 
 enum APIError: Error {
-    case noAnyData
+case noAnyData
 }
 
 class APIService {

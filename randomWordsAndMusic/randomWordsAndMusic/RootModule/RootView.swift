@@ -42,7 +42,7 @@ class RootView: UIView {
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
-
+    
     let musicButton: UIButton = {
         let button = UIButton()
         button.backgroundColor = .gray
@@ -53,7 +53,7 @@ class RootView: UIView {
         button.isHidden = true
         return button
     }()
-
+    
     init() {
         super.init(frame: .zero)
         setup()
@@ -63,7 +63,7 @@ class RootView: UIView {
         super.init(coder: coder)
         setup()
     }
-
+    
     func setup() {
         backgroundColor = .white
         addSubview(textfield)
@@ -72,7 +72,7 @@ class RootView: UIView {
         addSubview(textView)
         setConstraints()
     }
-
+    
     func setConstraints() {
         let constraints = [
             textfield.topAnchor.constraint(equalTo: self.topAnchor, constant: 90),
