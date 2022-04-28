@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Random Words And Music" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F42-WK-UGS">
-                                <rect key="frame" x="70" y="116" width="274" height="20"/>
+                                <rect key="frame" x="74.5" y="338" width="265" height="20"/>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -32,11 +32,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGray2Color"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="F42-WK-UGS" secondAttribute="trailing" constant="70" id="Xgb-PT-Ghl"/>
+                            <constraint firstItem="F42-WK-UGS" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="LVl-pm-o2v"/>
                             <constraint firstItem="iFQ-lD-ztK" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="YRk-2w-lW1"/>
+                            <constraint firstItem="F42-WK-UGS" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-100" id="YZU-g7-lbR"/>
                             <constraint firstItem="iFQ-lD-ztK" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="kcH-pv-Pn2"/>
-                            <constraint firstItem="F42-WK-UGS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="72" id="mC4-bB-ljj"/>
-                            <constraint firstItem="F42-WK-UGS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="zo9-TV-xsH"/>
                         </constraints>
                     </view>
                 </viewController>
