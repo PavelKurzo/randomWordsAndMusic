@@ -18,6 +18,7 @@
 		A84F4AD9281AA816007D89D7 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84F4AD8281AA816007D89D7 /* Artist.swift */; };
 		A84F4ADB281AA9A3007D89D7 /* WordsFetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84F4ADA281AA9A3007D89D7 /* WordsFetching.swift */; };
 		A84F4ADD281AA9B4007D89D7 /* MusicFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84F4ADC281AA9B4007D89D7 /* MusicFetcher.swift */; };
+		A84F4AE1281AABFE007D89D7 /* RootRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84F4AE0281AABFE007D89D7 /* RootRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		A84F4AD8281AA816007D89D7 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		A84F4ADA281AA9A3007D89D7 /* WordsFetching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsFetching.swift; sourceTree = "<group>"; };
 		A84F4ADC281AA9B4007D89D7 /* MusicFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicFetcher.swift; sourceTree = "<group>"; };
+		A84F4AE0281AABFE007D89D7 /* RootRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				A84F4ABE281AA1A5007D89D7 /* RootViewController.swift */,
 				A84F4AD2281AA593007D89D7 /* RootView.swift */,
+				A84F4AE0281AABFE007D89D7 /* RootRepository.swift */,
 			);
 			path = RootModule;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A84F4AD3281AA593007D89D7 /* RootView.swift in Sources */,
+				A84F4AE1281AABFE007D89D7 /* RootRepository.swift in Sources */,
 				A84F4AD5281AA6C4007D89D7 /* APIService.swift in Sources */,
 				A84F4ABF281AA1A5007D89D7 /* RootViewController.swift in Sources */,
 				A84F4AD7281AA786007D89D7 /* Words.swift in Sources */,
